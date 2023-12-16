@@ -91,7 +91,7 @@ body {
         opacity: 0;
         transition: visibility 0s, opacity 0.75s ease-in;
         overflow: hidden;
-        background: pink;
+        background: transparent;
         padding: 20px 20px;
         border-radius: 0px;
         border: solid 1px;
@@ -107,7 +107,7 @@ body {
         color: #000
     }
 
-    ;
+
 
     .navItems::before {
         content: "";
@@ -116,9 +116,8 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        background-size: 100%;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
-        background-color: blueviolet;
         background-image: url("https://m.media-amazon.com/images/I/615QmxFR7jL._AC_SL1500_.jpg");
         transform: rotate(90deg) scale(2.2);
     }
