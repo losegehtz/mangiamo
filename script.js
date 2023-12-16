@@ -10,7 +10,9 @@ var x ='';
 function myFunction(x) {
   navBurger.classList.toggle("change");
   navItems.classList.toggle('showHide');
-  startPage.classList.toggle('showHide');
+  Array.from(document.querySelectorAll('.page')).forEach(
+  (el) => el.classList.remove('showHide')
+  );
 }
 
 function callPage(page) {
