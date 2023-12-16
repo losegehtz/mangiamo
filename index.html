@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  <body>
+    <div class="header">
+      <div class="logo" id="start" onclick="callPage('start')">
+        <p>Mangiamo</p>
+      </div>
+      
+      <div class="navigation">
+        <div class="navBurger" id="navBurger" onclick="myFunction('burger')">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>  
+        </div>
+        
+        <div class="navItems" id="navItems">
+            <div class="navItem" id="pizza" onclick="callPage('pizza')">Pizza</div>
+            <div class="navItem" id="pasta" onclick="callPage('pasta')">Pasta</div>
+            <div class="navItem" id="salat" onclick="callPage('salat')">Salat</div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="main">
+      <div class="page showHide" id="startPage">
+        <h1>Herzlich Willkommen!</h1>
+      </div>
+      <div class="page" id="pizzaPage">
+        <h1>Pizza</h1>
+        <img src="https://de.ooni.com/cdn/shop/articles/Margherita-9920.jpg?crop=center&height=800&v=1644589966&width=800">
+        </div>
+      <div class="page" id="pastaPage">
+        <h1>Pasta</h1>
+        <img src="https://www.einfachkochen.de/sites/einfachkochen.de/files/styles/full_width_tablet_4_3/public/2023-04/2023_feta-pasta-pfanne_aufmacher.jpg?h=26b3590b&itok=TOfR2JnS">
+        </div>
+      <div class="page" id="salatPage">
+        <h1>Salat</h1>
+        <img src="https://images.lecker.de/gemischter-salat-b,id=2eb6b39e,b=lecker,w=1200,ca=5.60,11.17,94.60,100.00,rm=sk.jpeg">
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
