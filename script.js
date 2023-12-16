@@ -19,7 +19,7 @@ Array.from(document.querySelectorAll('.page')).forEach(
 );
   current = document.getElementById(page+"Page").classList.toggle('showHide');
   console.log(page);
-  if (page =="start") {
+  if (page =="start" && navItems.classList.contains('showHide') ) {
     myFunction(start);
     startPage.classList.toggle('showHide');
     }
