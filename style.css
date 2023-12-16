@@ -37,7 +37,7 @@ body {
 .page {
     display: none;
     height: auto;
-    padding: 40px;
+    padding: 20px;
     flex-direction: column;
 }
 
